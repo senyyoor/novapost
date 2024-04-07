@@ -1,0 +1,168 @@
+body {
+  margin: 0;
+  padding: 0;
+}
+
+.container {
+  display: flex;
+  justify-content: center;
+  padding: 0 20px; /* Пусті поля по боках */
+}
+
+.content {
+  max-width: 1200px; /* Максимальна ширина контенту */
+  width: 100%;
+  margin: 0 auto; /* Центрує контент на сторінці */
+  display: flex;
+  flex-direction: column;
+  align-items: center; /* Вирівнює по центру горизонтально */
+  padding: 20px 0; /* Зовнішні відступи зверху і знизу */
+}
+
+/* Стилі для зображення */
+#logo img {
+  display: block;
+  margin-bottom: 20px; /* Відступ під логотипом */
+}
+
+#banner img {
+  max-width: 100%;
+  height: auto;
+}
+
+/* Стилі для кнопок у хедері */
+#header-buttons {
+  display: flex;
+  justify-content: space-around; /* Рівномірне розподілення кнопок */
+  flex-wrap: wrap; /* Обгортання наступних рядків */
+  margin-bottom: 20px; /* Відступ під кнопками */
+}
+
+
+
+/* Стилі для контейнера слайдера */
+.slider-container {
+  width: 100%;
+  overflow: hidden; /* Ховати вилив */
+}
+
+/* Стилі для слайдів */
+.slide {
+  display: none; /* Початково ховаємо всі слайди */
+}
+
+/* Стилі для зображень у слайдів */
+/* Стилі для зображень у слайдів */
+.slide img {
+  max-width: 100%; /* Максимальна ширина зображення - 100% ширини контейнера */
+  max-height: 400px; /* Максимальна висота зображення - 200px (або будь-яка інша висота за вашим вибором) */
+  display: block; /* Встановлюємо зображення як блочний елемент */
+  margin: auto; /* Автоматичне вирівнювання по центру */
+}
+
+
+
+/* Стилі для кожної кнопки */
+#header-buttons button {
+  margin-right: 5px; /* Доданий маленький відступ між кнопками */
+}
+
+.fast_icons_new {
+  display: flex;
+  align-items: center; /* Вирівнювання кнопок по центру */
+}
+
+/* Стилі для секцій */
+section {
+  max-width: 800px; /* Максимальна ширина секцій */
+  width: 100%;
+  margin-bottom: 20px; /* Відступ між секціями */
+}
+
+/* Стилі для блоку з пошуком */
+#top_block {
+  display: flex;
+  justify-content: space-between; /* Рівномірне розподілення блоків */
+  max-width: 800px; /* Максимальна ширина блоку */
+  width: 100%;
+  margin: 0 auto; /* Центрує блок на сторінці */
+  padding: 20px; /* Внутрішні відступи */
+  /* background-color: #f9f9f9; Колір фону */
+}
+
+/* Стилі для лівого блоку */
+.block_left {
+  flex: 1; /* Розширення блоку */
+  margin-right: 20px; /* Відступ праворуч */
+}
+
+/* Стилі для правого блоку */
+.block_right {
+  flex: 1; /* Розширення блоку */
+  margin-left: 20px; /* Відступ ліворуч */
+}
+
+/* Стилі для слайдера */
+.slider {
+  width: 100%;
+}
+  
+  header, footer, section {
+    padding: 20px;
+    margin-bottom: 20px;
+  }
+  
+
+  h1, h2 {
+    color: #333;
+  }
+  
+  ul {
+    list-style-type: none;
+    padding: 0;
+  }
+  
+  blockquote {
+    border-left: 5px solid #ccc;
+    padding-left: 10px;
+  }
+  
+  footer {
+    margin-top: 10px;
+    font-style: italic;
+    background-color: #f9f9f9;
+  }
+  
+  #order-form form {
+    display: flex;
+    flex-direction: column;
+    max-width: 400px;
+  }
+  
+  #order-form form input[type="text"],
+  #order-form form input[type="email"] {
+    margin-bottom: 10px;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+  }
+  
+  #order-form form input[type="submit"] {
+    background-color: #007bff;
+    color: #fff;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 5px;
+    cursor: pointer;
+  }
+  
+  #social-links p {
+    margin-bottom: 10px;
+  }
+  
+  footer {
+    background-color: #f4f4f4;
+    text-align: center;
+    padding: 10px 0;
+  }
+  
